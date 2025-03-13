@@ -14,24 +14,24 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-5xl mx-auto text-center stagger-animation">
           <div className="inline-block mb-4 px-3 py-1 rounded-full bg-vivaccess-blue/10 text-vivaccess-blue text-sm font-medium">
-            Sud-Est du Maroc
+            جنوب شرق المغرب
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Connecter les communautés rurales <br className="hidden md:block" />
-            <span className="text-primary">aux services essentiels</span>
+            ربط المجتمعات الريفية <br className="hidden md:block" />
+            <span className="text-primary">بالخدمات الأساسية</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Une plateforme numérique pour améliorer les conditions de vie et l'accès aux services dans les villages isolés du Sud-Est du Maroc.
+            منصة رقمية لتحسين ظروف المعيشة والوصول إلى الخدمات في القرى النائية في جنوب شرق المغرب
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button className="button-primary w-full sm:w-auto">
-              Commencer
+              ابدأ
             </button>
             <button className="button-ghost w-full sm:w-auto">
-              En savoir plus
+              اعرف المزيد
             </button>
           </div>
         </div>

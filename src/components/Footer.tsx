@@ -46,7 +46,7 @@ const Footer = () => {
               <span className="text-lg font-display font-bold text-primary">VivAccess</span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-md mb-6">
-              Une plateforme numérique pour améliorer les conditions de vie et l'accès aux services essentiels des populations rurales isolées du Sud-Est du Maroc.
+              منصة رقمية لتحسين ظروف المعيشة والوصول إلى الخدمات الأساسية للسكان الريفيين المعزولين في جنوب شرق المغرب
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-500 hover:text-primary transition-colors">
@@ -63,46 +63,46 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <div>
-            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-gray-900">Services</h4>
+            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-gray-900">الخدمات</h4>
             <ul className="space-y-3">
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Télémédecine</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Éducation à distance</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Développement économique</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Gestion des ressources en eau</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Engagement civique</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">الطب عن بعد</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">التعليم عن بعد</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">التنمية الاقتصادية</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">إدارة موارد المياه</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">المشاركة المدنية</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-gray-900">Support</h4>
+            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-gray-900">الدعم</h4>
             <ul className="space-y-3">
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Centre d'aide</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Tutoriels</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Ressources</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Formation</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Contact</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">مركز المساعدة</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">الدروس التعليمية</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">الموارد</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">التدريب</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">اتصل بنا</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-gray-900">Légal</h4>
+            <h4 className="font-display font-semibold mb-4 text-sm uppercase tracking-wider text-gray-900">قانوني</h4>
             <ul className="space-y-3">
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Conditions d'utilisation</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Politique de confidentialité</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Mentions légales</Link></li>
-              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">Cookies</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">شروط الاستخدام</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">سياسة الخصوصية</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">الإشعارات القانونية</Link></li>
+              <li><Link to="#" className="text-muted-foreground hover:text-primary text-sm transition-colors">ملفات تعريف الارتباط</Link></li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground">© 2023 VivAccess. Tous droits réservés.</p>
+          <p className="text-sm text-muted-foreground">© 2023 VivAccess. جميع الحقوق محفوظة.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
-              <li><Link to="#" className="text-xs text-muted-foreground hover:text-primary transition-colors">Conditions</Link></li>
-              <li><Link to="#" className="text-xs text-muted-foreground hover:text-primary transition-colors">Confidentialité</Link></li>
-              <li><Link to="#" className="text-xs text-muted-foreground hover:text-primary transition-colors">Cookies</Link></li>
+              <li><Link to="#" className="text-xs text-muted-foreground hover:text-primary transition-colors">الشروط</Link></li>
+              <li><Link to="#" className="text-xs text-muted-foreground hover:text-primary transition-colors">الخصوصية</Link></li>
+              <li><Link to="#" className="text-xs text-muted-foreground hover:text-primary transition-colors">ملفات تعريف الارتباط</Link></li>
             </ul>
           </div>
         </div>

@@ -70,22 +70,22 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <Link to="/" className="font-medium text-foreground hover:text-primary transition-colors">
-            Accueil
+            الرئيسية
           </Link>
           <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
-            Télémédecine
+            الطب عن بعد
           </Link>
           <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
-            Éducation
+            التعليم
           </Link>
           <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
-            Économie
+            الاقتصاد
           </Link>
           <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
-            Eau
+            الماء
           </Link>
           <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
-            Engagement
+            المشاركة المدنية
           </Link>
         </nav>
 
@@ -112,42 +112,42 @@ const Header = () => {
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Accueil
+              الرئيسية
             </Link>
             <Link 
               to="#" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Télémédecine
+              الطب عن بعد
             </Link>
             <Link 
               to="#" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Éducation
+              التعليم
             </Link>
             <Link 
               to="#" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Économie
+              الاقتصاد
             </Link>
             <Link 
               to="#" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Eau
+              الماء
             </Link>
             <Link 
               to="#" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Engagement
+              المشاركة المدنية
             </Link>
           </nav>
         </div>
