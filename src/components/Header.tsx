@@ -72,19 +72,19 @@ const Header = () => {
           <Link to="/" className="font-medium text-foreground hover:text-primary transition-colors">
             الرئيسية
           </Link>
-          <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
+          <Link to="/telemedecine" className="font-medium text-foreground hover:text-primary transition-colors">
             الطب عن بعد
           </Link>
-          <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
+          <Link to="/education" className="font-medium text-foreground hover:text-primary transition-colors">
             التعليم
           </Link>
-          <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
+          <Link to="/economic-development" className="font-medium text-foreground hover:text-primary transition-colors">
             الاقتصاد
           </Link>
-          <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
+          <Link to="/water-management" className="font-medium text-foreground hover:text-primary transition-colors">
             الماء
           </Link>
-          <Link to="#" className="font-medium text-foreground hover:text-primary transition-colors">
+          <Link to="/civic-engagement" className="font-medium text-foreground hover:text-primary transition-colors">
             المشاركة المدنية
           </Link>
         </nav>
@@ -115,35 +115,35 @@ const Header = () => {
               الرئيسية
             </Link>
             <Link 
-              to="#" 
+              to="/telemedecine" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               الطب عن بعد
             </Link>
             <Link 
-              to="#" 
+              to="/education" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               التعليم
             </Link>
             <Link 
-              to="#" 
+              to="/economic-development" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               الاقتصاد
             </Link>
             <Link 
-              to="#" 
+              to="/water-management" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               الماء
             </Link>
             <Link 
-              to="#" 
+              to="/civic-engagement" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
