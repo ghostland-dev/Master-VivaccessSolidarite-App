@@ -35,55 +35,55 @@ const Index = () => {
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 stagger-animation">
               <div className="inline-block mb-4 px-3 py-1 rounded-full bg-vivaccess-green/10 text-vivaccess-green text-sm font-medium">
-                Nos Services
+                خدماتنا
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Des solutions adaptées aux besoins locaux
+                حلول مصممة خصيصًا للاحتياجات المحلية
               </h2>
               <p className="text-muted-foreground">
-                Nous proposons une gamme de services conçus pour répondre aux besoins spécifiques des communautés rurales isolées.
+                نقدم مجموعة من الخدمات المصممة لتلبية الاحتياجات المحددة للمجتمعات الريفية المعزولة.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               <FeatureCard 
-                title="Télémédecine"
-                description="Consultations à distance avec des médecins spécialistes et suivi médical des patients chroniques."
+                title="الطب عن بعد"
+                description="استشارات عن بعد مع الأطباء المتخصصين والمتابعة الطبية للمرضى المزمنين."
                 icon={Stethoscope}
                 color="bg-vivaccess-blue"
                 delay={100}
               />
               <FeatureCard 
-                title="Éducation à distance"
-                description="Cours en ligne pour les élèves et formation professionnelle pour les adultes."
+                title="التعليم عن بعد"
+                description="دروس عبر الإنترنت للطلاب والتدريب المهني للبالغين."
                 icon={GraduationCap}
                 color="bg-vivaccess-green"
                 delay={200}
               />
               <FeatureCard 
-                title="Développement économique"
-                description="Marketplace pour les produits locaux et microfinancement pour les entrepreneurs."
+                title="التنمية الاقتصادية"
+                description="سوق للمنتجات المحلية والتمويل الصغير لرواد الأعمال."
                 icon={ShoppingCart}
                 color="bg-amber-500"
                 delay={300}
               />
               <FeatureCard 
-                title="Gestion des ressources en eau"
-                description="Système d'alerte pour la qualité et la disponibilité de l'eau et formation sur les techniques d'irrigation."
+                title="إدارة موارد المياه"
+                description="نظام إنذار لجودة المياه وتوافرها والتدريب على تقنيات الري."
                 icon={Droplets}
                 color="bg-vivaccess-light-blue"
                 delay={400}
               />
               <FeatureCard 
-                title="Engagement civique"
-                description="Forum de discussion pour les problèmes locaux et outil de signalement des problèmes d'infrastructure."
+                title="المشاركة المدنية"
+                description="منتدى للنقاش حول القضايا المحلية وأداة للإبلاغ عن مشاكل البنية التحتية."
                 icon={MessageCircle}
                 color="bg-violet-600"
                 delay={500}
               />
               <FeatureCard 
-                title="Formation locale"
-                description="Formation des utilisateurs et support technique local pour assurer l'autonomie des communautés."
+                title="التدريب المحلي"
+                description="تدريب المستخدمين والدعم التقني المحلي لضمان استقلالية المجتمعات."
                 icon={Users}
                 color="bg-rose-500"
                 delay={600}
@@ -98,13 +98,13 @@ const Index = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="stagger-animation">
                 <div className="inline-block mb-4 px-3 py-1 rounded-full bg-vivaccess-blue/10 text-vivaccess-blue text-sm font-medium">
-                  Télémédecine
+                  الطب عن بعد
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                  Accès aux soins médicaux à distance
+                  الوصول إلى الرعاية الطبية عن بعد
                 </h2>
                 <p className="text-muted-foreground mb-8">
-                  Notre service de télémédecine permet aux habitants des zones rurales d'accéder à des consultations médicales de qualité sans avoir à parcourir de longues distances.
+                  تتيح خدمة الطب عن بعد لسكان المناطق الريفية الوصول إلى استشارات طبية عالية الجودة دون الحاجة إلى قطع مسافات طويلة.
                 </p>
                 
                 <ul className="space-y-4 mb-8">
@@ -115,8 +115,8 @@ const Index = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-base">Consultations vidéo</h4>
-                      <p className="text-sm text-muted-foreground">Consultez des médecins spécialistes par appel vidéo.</p>
+                      <h4 className="font-semibold text-base">استشارات بالفيديو</h4>
+                      <p className="text-sm text-muted-foreground">استشر الأطباء المتخصصين عبر مكالمة فيديو.</p>
                     </div>
                   </li>
                   <li className="flex">
@@ -126,8 +126,8 @@ const Index = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-base">Suivi des patients chroniques</h4>
-                      <p className="text-sm text-muted-foreground">Surveillance continue et personnalisée pour les maladies chroniques.</p>
+                      <h4 className="font-semibold text-base">متابعة المرضى المزمنين</h4>
+                      <p className="text-sm text-muted-foreground">مراقبة مستمرة ومخصصة للأمراض المزمنة.</p>
                     </div>
                   </li>
                   <li className="flex">
@@ -137,14 +137,14 @@ const Index = () => {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-base">Formation des agents de santé</h4>
-                      <p className="text-sm text-muted-foreground">Programmes de formation continue pour les soignants locaux.</p>
+                      <h4 className="font-semibold text-base">تدريب العاملين الصحيين</h4>
+                      <p className="text-sm text-muted-foreground">برامج تدريب مستمر للعاملين في الرعاية الصحية المحلية.</p>
                     </div>
                   </li>
                 </ul>
                 
                 <button className="button-primary">
-                  Découvrir la télémédecine
+                  اكتشف الطب عن بعد
                 </button>
               </div>
               
@@ -159,7 +159,7 @@ const Index = () => {
                     <div className="w-full aspect-video bg-gray-100 rounded-t-2xl overflow-hidden relative">
                       <img 
                         src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
-                        alt="Télémédecine en action" 
+                        alt="الطب عن بعد في العمل" 
                         className="w-full h-full object-cover"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -169,7 +169,7 @@ const Index = () => {
                             <div className="w-8 h-8 rounded-full bg-vivaccess-blue flex items-center justify-center">
                               <Video className="w-4 h-4 text-white" />
                             </div>
-                            <span className="font-medium">Consultation en cours</span>
+                            <span className="font-medium">استشارة جارية</span>
                           </div>
                           <span className="text-sm px-2 py-1 bg-white/20 rounded-full backdrop-blur-md">25:18</span>
                         </div>
@@ -179,13 +179,13 @@ const Index = () => {
                     <div className="p-6">
                       <div className="flex justify-between items-start mb-4">
                         <div>
-                          <h3 className="font-semibold text-lg mb-1">Consultation médicale</h3>
-                          <p className="text-sm text-muted-foreground">Dr. Amina Benali - Cardiologue</p>
+                          <h3 className="font-semibold text-lg mb-1">استشارة طبية</h3>
+                          <p className="text-sm text-muted-foreground">د. أمينة بنعلي - أخصائية قلب</p>
                         </div>
                         <div className="w-10 h-10 rounded-full bg-gray-100 overflow-hidden">
                           <img 
                             src="https://randomuser.me/api/portraits/women/44.jpg" 
-                            alt="Doctor" 
+                            alt="طبيب" 
                             className="w-full h-full object-cover"
                           />
                         </div>
@@ -193,25 +193,25 @@ const Index = () => {
                       
                       <div className="space-y-3 mb-6">
                         <div className="flex justify-between text-sm">
-                          <span className="text-muted-foreground">Fréquence cardiaque</span>
-                          <span>78 bpm</span>
+                          <span className="text-muted-foreground">معدل ضربات القلب</span>
+                          <span>78 نبضة/دقيقة</span>
                         </div>
                         <div className="flex justify-between text-sm">
-                          <span className="text-muted-foreground">Tension artérielle</span>
-                          <span>125/85 mmHg</span>
+                          <span className="text-muted-foreground">ضغط الدم</span>
+                          <span>125/85 ملم زئبق</span>
                         </div>
                         <div className="flex justify-between text-sm">
-                          <span className="text-muted-foreground">Température</span>
-                          <span>37.2°C</span>
+                          <span className="text-muted-foreground">درجة الحرارة</span>
+                          <span>37.2 درجة مئوية</span>
                         </div>
                       </div>
                       
                       <div className="grid grid-cols-2 gap-3">
                         <button className="button-secondary w-full">
-                          Dossier
+                          الملف
                         </button>
                         <button className="button-ghost w-full border border-gray-200">
-                          Terminer
+                          إنهاء
                         </button>
                       </div>
                     </div>
@@ -227,76 +227,76 @@ const Index = () => {
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center max-w-3xl mx-auto mb-16 stagger-animation">
               <div className="inline-block mb-4 px-3 py-1 rounded-full bg-vivaccess-green/10 text-vivaccess-green text-sm font-medium">
-                Fonctionnalités
+                المميزات
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Des solutions complètes pour les communautés rurales
+                حلول شاملة للمجتمعات الريفية
               </h2>
               <p className="text-muted-foreground">
-                Notre plateforme offre de nombreuses fonctionnalités conçues pour améliorer la qualité de vie dans les villages isolés.
+                توفر منصتنا العديد من الميزات المصممة لتحسين نوعية الحياة في القرى المعزولة.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <Video className="w-6 h-6 text-vivaccess-blue mb-4" />
-                <h3 className="font-semibold mb-2">Consultations vidéo</h3>
-                <p className="text-sm text-muted-foreground">Accès aux médecins spécialistes à distance.</p>
+                <h3 className="font-semibold mb-2">استشارات بالفيديو</h3>
+                <p className="text-sm text-muted-foreground">الوصول إلى الأطباء المتخصصين عن بعد.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <BookOpen className="w-6 h-6 text-vivaccess-green mb-4" />
-                <h3 className="font-semibold mb-2">Cours en ligne</h3>
-                <p className="text-sm text-muted-foreground">Éducation pour tous les âges et niveaux.</p>
+                <h3 className="font-semibold mb-2">دروس عبر الإنترنت</h3>
+                <p className="text-sm text-muted-foreground">تعليم لجميع الأعمار والمستويات.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <ShoppingCart className="w-6 h-6 text-amber-500 mb-4" />
-                <h3 className="font-semibold mb-2">Marketplace locale</h3>
-                <p className="text-sm text-muted-foreground">Vente et achat de produits artisanaux.</p>
+                <h3 className="font-semibold mb-2">سوق محلي</h3>
+                <p className="text-sm text-muted-foreground">بيع وشراء المنتجات الحرفية.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <CreditCard className="w-6 h-6 text-violet-600 mb-4" />
-                <h3 className="font-semibold mb-2">Microfinancement</h3>
-                <p className="text-sm text-muted-foreground">Accès aux services financiers de base.</p>
+                <h3 className="font-semibold mb-2">التمويل الصغير</h3>
+                <p className="text-sm text-muted-foreground">الوصول إلى الخدمات المالية الأساسية.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <BarChart3 className="w-6 h-6 text-vivaccess-blue mb-4" />
-                <h3 className="font-semibold mb-2">Suivi des ressources</h3>
-                <p className="text-sm text-muted-foreground">Gestion optimisée des ressources locales.</p>
+                <h3 className="font-semibold mb-2">متابعة الموارد</h3>
+                <p className="text-sm text-muted-foreground">إدارة محسنة للموارد المحلية.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <AlertTriangle className="w-6 h-6 text-rose-500 mb-4" />
-                <h3 className="font-semibold mb-2">Alertes eau</h3>
-                <p className="text-sm text-muted-foreground">Surveillance de la qualité et disponibilité.</p>
+                <h3 className="font-semibold mb-2">إنذارات المياه</h3>
+                <p className="text-sm text-muted-foreground">مراقبة الجودة والتوافر.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <FileSpreadsheet className="w-6 h-6 text-vivaccess-green mb-4" />
-                <h3 className="font-semibold mb-2">Ressources pédagogiques</h3>
-                <p className="text-sm text-muted-foreground">Matériel adapté au contexte local.</p>
+                <h3 className="font-semibold mb-2">موارد تعليمية</h3>
+                <p className="text-sm text-muted-foreground">مواد مكيفة مع السياق المحلي.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <Building className="w-6 h-6 text-amber-500 mb-4" />
-                <h3 className="font-semibold mb-2">Infrastructure</h3>
-                <p className="text-sm text-muted-foreground">Signalement des problèmes d'infrastructure.</p>
+                <h3 className="font-semibold mb-2">البنية التحتية</h3>
+                <p className="text-sm text-muted-foreground">الإبلاغ عن مشاكل البنية التحتية.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <Megaphone className="w-6 h-6 text-violet-600 mb-4" />
-                <h3 className="font-semibold mb-2">Campagnes locales</h3>
-                <p className="text-sm text-muted-foreground">Organisation d'initiatives communautaires.</p>
+                <h3 className="font-semibold mb-2">حملات محلية</h3>
+                <p className="text-sm text-muted-foreground">تنظيم المبادرات المجتمعية.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <Users className="w-6 h-6 text-vivaccess-blue mb-4" />
-                <h3 className="font-semibold mb-2">Formation communautaire</h3>
-                <p className="text-sm text-muted-foreground">Renforcement des capacités locales.</p>
+                <h3 className="font-semibold mb-2">تدريب مجتمعي</h3>
+                <p className="text-sm text-muted-foreground">تعزيز القدرات المحلية.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <ShieldCheck className="w-6 h-6 text-rose-500 mb-4" />
-                <h3 className="font-semibold mb-2">Droits citoyens</h3>
-                <p className="text-sm text-muted-foreground">Information sur les droits et démarches.</p>
+                <h3 className="font-semibold mb-2">حقوق المواطنين</h3>
+                <p className="text-sm text-muted-foreground">معلومات عن الحقوق والإجراءات.</p>
               </div>
               <div className="p-6 rounded-xl glass-card hover:shadow-md transition-all">
                 <Droplets className="w-6 h-6 text-vivaccess-light-blue mb-4" />
-                <h3 className="font-semibold mb-2">Irrigation efficace</h3>
-                <p className="text-sm text-muted-foreground">Techniques pour économiser l'eau.</p>
+                <h3 className="font-semibold mb-2">ري فعال</h3>
+                <p className="text-sm text-muted-foreground">تقنيات لتوفير المياه.</p>
               </div>
             </div>
           </div>
@@ -311,20 +311,20 @@ const Index = () => {
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <div className="max-w-4xl mx-auto text-center stagger-animation">
               <div className="inline-block mb-4 px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-primary text-sm font-medium">
-                Rejoignez-nous
+                انضم إلينا
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ensemble, construisons un avenir meilleur pour les communautés rurales
+                معًا، نبني مستقبلًا أفضل للمجتمعات الريفية
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Notre plateforme est conçue en collaboration avec les communautés locales. Rejoignez-nous pour participer à cette initiative et contribuer au développement durable des régions rurales du Maroc.
+                تم تصميم منصتنا بالتعاون مع المجتمعات المحلية. انضم إلينا للمشاركة في هذه المبادرة والمساهمة في التنمية المستدامة للمناطق الريفية في المغرب.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <button className="button-primary bg-white text-primary hover:bg-white/90 w-full sm:w-auto">
-                  S'inscrire gratuitement
+                  سجل مجانًا
                 </button>
                 <button className="button-ghost text-gray-800 hover:bg-white/10 w-full sm:w-auto">
-                  Nous contacter
+                  اتصل بنا
                 </button>
               </div>
             </div>
