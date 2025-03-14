@@ -1,7 +1,6 @@
-
 import React from 'react';
 import PageLayout from '../components/PageLayout';
-import { Droplets, CloudRain, Waves, Plant, FileText, Users } from 'lucide-react';
+import { Droplets, CloudRain, Waves, Leaf, FileText, Users } from 'lucide-react';
 import FeatureCard from '../components/FeatureCard';
 import { Link } from 'react-router-dom';
 
@@ -38,7 +37,7 @@ const WaterManagement = () => {
             <FeatureCard 
               title="الزراعة المستدامة"
               description="تقنيات وممارسات للحفاظ على المياه في الزراعة"
-              icon={Plant}
+              icon={Leaf}
               color="bg-amber-500"
             />
             <FeatureCard 

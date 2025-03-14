@@ -1,7 +1,6 @@
-
 import React from 'react';
 import PageLayout from '../components/PageLayout';
-import { ArrowLeft, Droplets, CloudRain, Waves, Plant, FileText, PieChart } from 'lucide-react';
+import { ArrowLeft, Droplets, CloudRain, Waves, Leaf, FileText, PieChart } from 'lucide-react';
 import FeatureCard from '../components/FeatureCard';
 import { Link } from 'react-router-dom';
 
@@ -44,7 +43,7 @@ const WaterManagementDetails = () => {
             <FeatureCard 
               title="الزراعة المقتصدة للمياه"
               description="تقنيات للزراعة باستخدام كميات أقل من المياه مع الحفاظ على الإنتاجية"
-              icon={Plant}
+              icon={Leaf}
               color="bg-amber-500"
             />
             <FeatureCard 
