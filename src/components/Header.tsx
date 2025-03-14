@@ -104,7 +104,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isMobileMenuOpen && (
+{/*       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-md py-4 px-4 animate-fade-in">
           <nav className="flex flex-col space-y-4">
             <Link 
@@ -151,7 +151,7 @@ const Header = () => {
             </Link>
           </nav>
         </div>
-      )}
+      )} */}
     </header>
   );
 };
