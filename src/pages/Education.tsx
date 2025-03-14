@@ -3,6 +3,7 @@ import React from 'react';
 import PageLayout from '../components/PageLayout';
 import { BookOpen, Video, FileText, Users, GraduationCap, Briefcase } from 'lucide-react';
 import FeatureCard from '../components/FeatureCard';
+import { Link } from 'react-router-dom';
 
 const Education = () => {
   return (
@@ -52,6 +53,15 @@ const Education = () => {
               icon={Briefcase}
               color="bg-vivaccess-light-blue"
             />
+          </div>
+
+          <div className="text-center mt-8">
+            <Link 
+              to="/education/details"
+              className="inline-block bg-vivaccess-green text-white px-6 py-2 rounded-md hover:bg-vivaccess-green/90 transition-colors"
+            >
+              عرض التفاصيل الكاملة
+            </Link>
           </div>
         </div>
       </section>

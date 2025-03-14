@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -6,11 +7,16 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Telemedecine from "./pages/Telemedecine";
+import TelemedecineDetails from "./pages/TelemedecineDetails";
 import Education from "./pages/Education";
+import EducationDetails from "./pages/EducationDetails";
 import EconomicDevelopment from "./pages/EconomicDevelopment";
+import EconomicDevelopmentDetails from "./pages/EconomicDevelopmentDetails";
 import WaterManagement from "./pages/WaterManagement";
-import CivicEngagement from "./pages/CivicEngagement";
 import WaterManagementDetails from "./pages/WaterManagementDetails";
+import CivicEngagement from "./pages/CivicEngagement";
+import CivicEngagementDetails from "./pages/CivicEngagementDetails";
+import HomeDetails from "./pages/HomeDetails";
 
 const queryClient = new QueryClient();
 
@@ -22,12 +28,17 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/home/details" element={<HomeDetails />} />
           <Route path="/telemedecine" element={<Telemedecine />} />
+          <Route path="/telemedecine/details" element={<TelemedecineDetails />} />
           <Route path="/education" element={<Education />} />
+          <Route path="/education/details" element={<EducationDetails />} />
           <Route path="/economic-development" element={<EconomicDevelopment />} />
+          <Route path="/economic-development/details" element={<EconomicDevelopmentDetails />} />
           <Route path="/water-management" element={<WaterManagement />} />
           <Route path="/water-management/details" element={<WaterManagementDetails />} />
           <Route path="/civic-engagement" element={<CivicEngagement />} />
+          <Route path="/civic-engagement/details" element={<CivicEngagementDetails />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

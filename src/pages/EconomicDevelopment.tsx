@@ -3,6 +3,7 @@ import React from 'react';
 import PageLayout from '../components/PageLayout';
 import { ShoppingCart, CreditCard, Briefcase, TrendingUp, Building, Users } from 'lucide-react';
 import FeatureCard from '../components/FeatureCard';
+import { Link } from 'react-router-dom';
 
 const EconomicDevelopment = () => {
   return (
@@ -52,6 +53,15 @@ const EconomicDevelopment = () => {
               icon={Users}
               color="bg-vivaccess-light-blue"
             />
+          </div>
+
+          <div className="text-center mt-8">
+            <Link 
+              to="/economic-development/details"
+              className="inline-block bg-amber-500 text-white px-6 py-2 rounded-md hover:bg-amber-500/90 transition-colors"
+            >
+              عرض التفاصيل الكاملة
+            </Link>
           </div>
         </div>
       </section>

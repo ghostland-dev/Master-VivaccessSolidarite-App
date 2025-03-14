@@ -3,6 +3,7 @@ import React from 'react';
 import PageLayout from '../components/PageLayout';
 import { Stethoscope, Video, FileText, Users, Heart, BookOpen } from 'lucide-react';
 import FeatureCard from '../components/FeatureCard';
+import { Link } from 'react-router-dom';
 
 const Telemedecine = () => {
   return (
@@ -52,6 +53,15 @@ const Telemedecine = () => {
               icon={Stethoscope}
               color="bg-vivaccess-light-blue"
             />
+          </div>
+
+          <div className="text-center mt-8">
+            <Link 
+              to="/telemedecine/details"
+              className="inline-block bg-vivaccess-blue text-white px-6 py-2 rounded-md hover:bg-vivaccess-blue/90 transition-colors"
+            >
+              عرض التفاصيل الكاملة
+            </Link>
           </div>
         </div>
       </section>
