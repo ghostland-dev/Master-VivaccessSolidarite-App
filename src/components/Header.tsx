@@ -1,26 +1,33 @@
-import React, { useState, useEffect, useCallback } from "react";
-import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 10);
-    
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
-  const toggleMobileMenu = useCallback(() => {
-    setIsMobileMenuOpen((prev) => !prev);
-  }, []);
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return (
-    <header
+    <header 
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "py-2 bg-white/80 shadow-sm backdrop-blur-md" : "py-4 bg-transparent"
+        isScrolled 
+          ? 'py-2 bg-white/80 shadow-sm backdrop-blur-md' 
+          : 'py-4 bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
@@ -62,61 +69,89 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          {[
-            { path: "/", label: "الرئيسية" },
-            { path: "/telemedecine", label: "الطب عن بعد" },
-            { path: "/education", label: "التعليم" },
-            { path: "/economic-development", label: "الاقتصاد" },
-            { path: "/water-management", label: "الماء" },
-            { path: "/civic-engagement", label: "المشاركة المدنية" },
-          ].map(({ path, label }) => (
-            <Link
-              key={path}
-              to={path}
-              className="font-medium text-foreground hover:text-primary transition-colors"
-            >
-              {label}
-            </Link>
-          ))}
+          <Link to="/" className="font-medium text-foreground hover:text-primary transition-colors">
+            الرئيسية
+          </Link>
+          <Link to="/telemedecine" className="font-medium text-foreground hover:text-primary transition-colors">
+            الطب عن بعد
+          </Link>
+          <Link to="/education" className="font-medium text-foreground hover:text-primary transition-colors">
+            التعليم
+          </Link>
+          <Link to="/economic-development" className="font-medium text-foreground hover:text-primary transition-colors">
+            الاقتصاد
+          </Link>
+          <Link to="/water-management" className="font-medium text-foreground hover:text-primary transition-colors">
+            الماء
+          </Link>
+          <Link to="/civic-engagement" className="font-medium text-foreground hover:text-primary transition-colors">
+            المشاركة المدنية
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
-        <button
+        <button 
           className="md:hidden flex items-center text-foreground"
           onClick={toggleMobileMenu}
-          aria-label="Toggle menu"
-          aria-expanded={isMobileMenuOpen}
+          aria-label="Menu"
         >
-          {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          {isMobileMenuOpen ? (
+            <X className="h-6 w-6" />
+          ) : (
+            <Menu className="h-6 w-6" />
+          )}
         </button>
       </div>
 
       {/* Mobile Menu */}
-      <div
-        className={`md:hidden absolute top-full left-0 w-full bg-white shadow-md py-4 px-4 transition-transform ${
-          isMobileMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-4 opacity-0 pointer-events-none"
-        }`}
-      >
-        <nav className="flex flex-col space-y-4">
-          {[
-            { path: "/", label: "الرئيسية" },
-            { path: "/telemedecine", label: "الطب عن بعد" },
-            { path: "/education", label: "التعليم" },
-            { path: "/economic-development", label: "الاقتصاد" },
-            { path: "/water-management", label: "الماء" },
-            { path: "/civic-engagement", label: "المشاركة المدنية" },
-          ].map(({ path, label }) => (
-            <Link
-              key={path}
-              to={path}
+      {isMobileMenuOpen && (
+        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-md py-4 px-4 animate-fade-in">
+          <nav className="flex flex-col space-y-4">
+            <Link 
+              to="/" 
               className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              {label}
+              الرئيسية
             </Link>
-          ))}
-        </nav>
-      </div>
+            <Link 
+              to="/telemedecine" 
+              className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              الطب عن بعد
+            </Link>
+            <Link 
+              to="/education" 
+              className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              التعليم
+            </Link>
+            <Link 
+              to="/economic-development" 
+              className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              الاقتصاد
+            </Link>
+            <Link 
+              to="/water-management" 
+              className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              الماء
+            </Link>
+            <Link 
+              to="/civic-engagement" 
+              className="font-medium text-foreground hover:text-primary transition-colors px-2 py-1"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              المشاركة المدنية
+            </Link>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };
