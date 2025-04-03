@@ -1,69 +1,58 @@
-# Welcome to your Lovable project
+# 🌍 VivAccess
+![image](https://github.com/user-attachments/assets/1a8af976-6bb8-4477-96e7-dfdddf1a0458)
 
-## Project info
+**VivAccess** est une plateforme numérique conçue pour améliorer les conditions de vie des communautés rurales et faciliter leur accès aux services essentiels : santé, éducation, économie locale, et participation citoyenne dans les régions rurales du sud-est du Maroc.
 
-**URL**: https://lovable.dev/projects/c2d131e1-3870-4033-8274-f3a31c46faf8
+---
 
-## How can I edit this code?
+## 🎯 Vision
 
-There are several ways of editing your application.
+Créer un pont numérique entre les communautés rurales et les services fondamentaux, grâce à des solutions technologiques simples, intuitives et adaptées aux besoins locaux.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c2d131e1-3870-4033-8274-f3a31c46faf8) and start prompting.
+## 🚀 Fonctionnalités principales
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🩺 **Consultations médicales à distance**
+- 📚 **Éducation à distance** pour élèves et étudiants
+- 💼 **Marché local en ligne** pour stimuler l’économie communautaire
+- 🚰 **Alertes et gestion de l’eau potable**
+- 👥 **Participation citoyenne** via un forum communautaire
+- 🧑‍🏫 **Formations professionnelles** locales
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🖼️ Aperçu de l’interface
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+![Capture d’écran de VivAccess](./assets/screenshot.png)
 
-Follow these steps:
+Une interface moderne, en langue arabe, totalement responsive et pensée pour l’accessibilité.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Technologies utilisées
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **React + TypeScript**
+- **Tailwind CSS** pour une UI rapide et élégante
+- **Vite** pour un environnement de développement ultra-rapide
+- **Lucide-react** pour les icônes SVG
+- Prévue pour être compatible avec **Electron** (version desktop à venir)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🧪 Lancer le projet en local
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/votre-org/vivaccess.git
+cd vivaccess
+
+# Installer les dépendances
+npm install
+
+# Démarrer le serveur de développement
 npm run dev
-```
+npm install
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c2d131e1-3870-4033-8274-f3a31c46faf8) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+# تشغيل الخادم المحلي
+npm run dev
